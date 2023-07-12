@@ -1,0 +1,85 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#header {
+    display: flex;
+}
+#input {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 40px;
+    background-color: rgb(176, 199, 213, 0.1);
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 1px 10px 1px rgb(216, 215, 215);
+}
+#input:focus {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 100px 2px rgba(76, 175, 236, 0.8);
+    outline: 0;
+    outline-offset: 0;
+    text-align: center;
+}
+#when-where {
+    
+}
+#city {
+    font-size: 60px;
+    color: rgb(155, 190, 214);
+    text-shadow:1px 1px 2px rgb(12, 48, 73);
+    margin-top: 40px;
+}
+#data {
+    text-align: center;
+    color: rgb(172, 170, 170);
+    text-shadow: 1px 1px rgb(29, 29, 29);
+    font-size: 20px;
+}
+.temperature {
+    font-size: 120px;
+    margin: 0;
+    color: rgb(245, 125, 27);
+    text-shadow: 1px 3px 3px rgb(139, 68, 9);
+}
+#feelsLike, #conditions, #variation {
+    font-size: 20px;
+    color: rgb(187, 185, 185);
+    text-shadow: 1px 1px 2px rgb(8, 8, 8);
+}
+#now {
+    margin-top: 10px;
+    text-align: center;
+}
+#feels {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 10px;
+    background-color: rgb(239, 253, 253, 0.4);
+
+}
+.cold {
+    color: rgb(32, 150, 185);
+}
+.center {
+    text-align: center;
+}
+.timeSet {
+    padding: 5px;
+    border: 1px solid gray;
+    width: 50px;
+    margin: 0 auto;
+    border-radius: 7px;
+    background-color: rgb(239, 253, 253, 0.4);
+}
